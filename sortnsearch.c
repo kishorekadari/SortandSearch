@@ -14,7 +14,7 @@ void main(){
   int nums[10]={9,5,7,1,8,5,10,12,4,2};
   int d_size=sizeof(int);  
   int a_size=sizeof(nums)/d_size;
-  
+  printf("%d \n",d_size);
   // Print Array
   print_array(nums,a_size);
   // Sort Array
